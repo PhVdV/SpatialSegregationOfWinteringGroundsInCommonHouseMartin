@@ -103,7 +103,7 @@ The three tracked individuals demonstrated **100% spatial segregation** across W
 
 ## 🌐 Live Demo
 
-**[View Interactive Map](#)** https://phvdv.github.io/SpatialSegregationOfWinteringGroundsInCommonHouseMartin/ 
+**[View Interactive Map](#)** https://phvdv.github.io/SpatialSegregationOfWinteringGroundsInCommonHouseMartin/
 
 *Note: The map works best on desktop browsers (Chrome, Firefox, Safari, Edge)*
 
@@ -278,6 +278,66 @@ Each CSV file contains 230-240 daily positions with the following columns:
 
 ---
 
+## 🏛️ Data Authority and Access
+
+### BeBirds - Royal Belgian Institute of Natural Sciences
+
+This dataset is part of the **Belgian Bird Ringing Scheme (BeBirds)** operated by the Royal Belgian Institute of Natural Sciences (IRSNB/RBINS) since 1927.
+
+**Database Statistics:**
+- **Ringing records**: 20,000,000+ (digitized as of March 2025)
+- **Recovery records**: 1,250,000+ (since 1927, fully digitized)
+- **This study**: 710 geolocator positions (2013-2014)
+
+### Data Access Categories
+
+Access to BeBirds data follows institutional procedures:
+
+| User Category | Access Type | Conditions |
+|---------------|-------------|------------|
+| Public Service | Free | Natural heritage conservation |
+| University/Research | Free | Academic research/teaching |
+| NGO (Conservation) | Free | Conservation purposes |
+| Commercial Entity | Fee-based | Contact IRSNB-BeBirds |
+| IRSNB Ringer | Free | Publication commitment |
+| International Researcher | Via EURING | Academic purposes |
+
+**Important**: Data transmission to third parties requires explicit authorization from IRSNB-BeBirds.
+
+### Mandatory Citation Requirements
+
+**In-text citation:**
+> "BeBirds database, Royal Belgian Institute of Natural Sciences"
+
+**In acknowledgments:**
+> "BeBirds, Royal Belgian Institute of Natural Sciences (Belgian Science Policy Office) and all volunteer ringers who collect data and participate in the funding of the system."
+
+**Complete dataset citation:**
+```bibtex
+@dataset{bebirds_delichon_2024,
+  author = {[Your Name]},
+  title = {Common House Martin tracking data from Boitsfort colony},
+  year = {2024},
+  publisher = {BeBirds, Royal Belgian Institute of Natural Sciences},
+  address = {Brussels, Belgium},
+  note = {Wintering period 2013-2014, n=3 individuals, 710 positions}
+}
+```
+
+### Contact BeBirds
+
+**Royal Belgian Institute of Natural Sciences**
+- Address: Rue Vautier 29, B-1000 Brussels, Belgium
+- Email: bebirds@naturalsciences.be
+- Website: https://www.naturalsciences.be/en/science/bebirds
+
+**For this specific dataset:**
+- Email: [your.email@example.com]
+
+**⚠️ Important Notice**: Upon publication using this data, you must provide a PDF copy or accessible link to the BeBirds coordinator. See [LICENSE](LICENSE) for complete terms.
+
+---
+
 ## 🔬 Methodology
 
 ### Geolocator Technology
@@ -375,22 +435,84 @@ lon_smooth <- runmed(lon, k = 5)
 
 ## 📝 Citation
 
-If you use this dataset or visualization in your research, please cite:
+### Required Citations
+
+If you use this dataset or visualization in your research, you **must** cite both the data source and this repository:
+
+#### 1. Data Source Citation (BeBirds - MANDATORY)
 
 ```bibtex
-@misc{delichon_geolocator_2024,
-  title = {Spatial Segregation of Common House Martins (Delichon urbicum) 
-           During West African Wintering: A Geolocator Study},
+@dataset{bebirds_delichon_2024,
   author = {[Your Name]},
+  title = {Common House Martin (Delichon urbicum) tracking data from 
+           Boitsfort colony, Belgium. Wintering period 2013-2014},
   year = {2024},
-  howpublished = {\url{https://github.com/your-username/delichon-wintering-map}},
-  note = {Data collection: 2013-2014, Boitsfort colony, Belgium}
+  publisher = {BeBirds, Royal Belgian Institute of Natural Sciences},
+  address = {Brussels, Belgium},
+  note = {n=3 individuals, 710 positions},
+  url = {https://www.naturalsciences.be/en/science/bebirds}
 }
 ```
 
-### Related Publications
+#### 2. Repository Citation
 
-*[Add any published papers or preprints here]*
+```bibtex
+@software{delichon_geolocator_map_2024,
+  title = {Interactive Map: Common House Martin Wintering Sites in West Africa},
+  author = {[Your Name]},
+  year = {2024},
+  url = {https://github.com/your-username/delichon-wintering-map},
+  note = {Data visualization and spatial analysis tools}
+}
+```
+
+### In-Text Citation Format
+
+**Required in-text:**
+> "...data from the BeBirds database, Royal Belgian Institute of Natural Sciences..."
+
+**Required in acknowledgments:**
+> "We thank BeBirds, Royal Belgian Institute of Natural Sciences (Belgian Science Policy Office) and all volunteer ringers who collect data and participate in the funding of the system."
+
+### Complete Citation Example
+
+See below for an example of complete citation in a scientific paper:
+
+**Methods section:**
+```
+Geolocator data were obtained from the BeBirds database, Royal Belgian 
+Institute of Natural Sciences (Brussels, Belgium). Three Common House 
+Martins from the Boitsfort breeding colony were tracked during the 
+2013-2014 wintering period in West Africa (n=710 positions).
+```
+
+**Acknowledgments:**
+```
+We thank BeBirds, Royal Belgian Institute of Natural Sciences (Belgian 
+Science Policy Office) and all volunteer ringers who collect data and 
+participate in the funding of the system. We are grateful to [names] 
+for geolocator deployment and recovery.
+```
+
+### Publication Reporting (MANDATORY)
+
+Upon publication, you **must** provide:
+- PDF copy of the publication, OR
+- Link to accessible PDF version
+- Send to: bebirds@naturalsciences.be
+
+**Failure to report publications violates data usage terms.**
+
+### Data Usage Agreement
+
+By downloading or using this data, you agree to:
+1. ✅ Cite data source properly (BeBirds + this repository)
+2. ✅ Not transmit data to third parties without authorization
+3. ✅ Report all publications to BeBirds coordinator
+4. ✅ Acknowledge geolocator precision limitations (±150-200 km)
+5. ✅ Use data ethically and responsibly
+
+**Full terms**: See [LICENSE](LICENSE) for complete data usage agreement.
 
 ---
 
