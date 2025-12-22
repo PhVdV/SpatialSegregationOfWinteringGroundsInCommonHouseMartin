@@ -103,7 +103,7 @@ The three tracked individuals demonstrated **100% spatial segregation** across W
 
 ## 🌐 Live Demo
 
-**[View Interactive Map](#)** *(Replace with your GitHub Pages URL)*
+**[View Interactive Map](#)** https://phvdv.github.io/SpatialSegregationOfWinteringGroundsInCommonHouseMartin/ 
 
 *Note: The map works best on desktop browsers (Chrome, Firefox, Safari, Edge)*
 
