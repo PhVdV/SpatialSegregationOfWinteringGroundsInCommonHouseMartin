@@ -1,0 +1,200 @@
+MIT License
+
+Copyright (c) 2024 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Bird Ringing Data Usage Terms
+
+### Data Source and Authority
+
+The tracking data contained in this repository originates from the Belgian Bird 
+Ringing Scheme (BeBirds) operated by the Royal Belgian Institute of Natural 
+Sciences (IRSNB/RBINS). The data is governed by specific access and usage 
+procedures established by IRSNB-BeBirds (version November 2008).
+
+### General Principles
+
+The objectives of BeBirds fall within the framework of conservation biology. 
+Data analysis and dissemination constitute an essential goal of the program. 
+This dataset comprises:
+- Ringing data: 20,000,000+ records (as of March 2025)
+- Recovery data: 1,250,000+ records (since 1927)
+- Geolocator tracking data: 710 positions (2013-2014 wintering period)
+
+### Access Categories and Permitted Uses
+
+Access to this data is granted according to user category:
+
+**1. Public Service (Federal, Regional, or Community)**
+- Free access for use within natural heritage conservation missions
+
+**2. University or Research Institution**
+- Free access for academic research or teaching purposes
+- Request must come from a department head or principal investigator
+
+**3. Non-Profit Conservation Organization**
+- Free access for conservation purposes
+- Studies conducted with own funds or by organization members
+
+**4. Commercial Entity**
+- Access on a fee basis (contact IRSNB-BeBirds)
+
+**5. IRSNB-Affiliated Ringer**
+- Free access with commitment to publish within agreed timeframe
+
+**6. European or International Researcher**
+- Recovery data: Requests directed to EURING database
+- Belgian-only data: Same conditions as EURING
+- Ringing data: Free access for academic research or teaching
+
+### Mandatory User Obligations
+
+By using this data, you agree to:
+
+**1. Restricted Transmission**
+- Data is for exclusive use by the requestor
+- Transmission to third parties is NOT authorized without prior permission
+- Sharing requires explicit approval from IRSNB-BeBirds
+
+**2. Proper Citation**
+
+In any scientific publication, you must cite:
+
+**In-text citation:**
+```
+"BeBirds database, Royal Belgian Institute of Natural Sciences"
+```
+
+**In acknowledgments:**
+```
+"BeBirds, Royal Belgian Institute of Natural Sciences (Belgian Science 
+Policy Office) and all volunteer ringers who collect data and participate 
+in the funding of the system."
+```
+
+**For this specific dataset:**
+```
+Philippe [Your Name] (2024). Common House Martin (Delichon urbicum) 
+tracking data from Boitsfort colony, Belgium. Wintering period 2013-2014. 
+BeBirds database, Royal Belgian Institute of Natural Sciences.
+DOI: [if available]
+```
+
+**3. Publication Reporting**
+
+Upon publication, you must provide:
+- A PDF copy of the study to the BeBirds coordinator
+- OR a link to an accessible PDF version
+- If a book: One copy reserved for the IRSNB library
+
+**4. Data Quality Acknowledgment**
+
+You must note in any publication:
+- Geolocator precision: ±150-200 km (inherent to light-level technology)
+- Equinox periods excluded: ~40 days (±10 days around March 21 & September 21)
+- Statistical corrections applied: Outlier filtering, velocity checks, median smoothing
+
+### Contact Information
+
+**BeBirds Coordinator:**
+Royal Belgian Institute of Natural Sciences (IRSNB/RBINS)
+Rue Vautier 29, B-1000 Brussels, Belgium
+Email: bebirds@naturalsciences.be
+Website: https://www.naturalsciences.be/en/science/bebirds
+
+**For questions about this specific dataset:**
+Email: [your.email@example.com]
+
+### Ethical Considerations
+
+This data represents significant field effort:
+- Capture and ringing of wild birds with ethical approval
+- Deployment and recovery of geolocators (success rate ~30-40%)
+- Years of volunteer work by ringers
+- Decades of systematic data collection (since 1927)
+
+Please use this data responsibly in accordance with:
+- Scientific ethics
+- Conservation biology principles
+- EURING Code of Conduct
+- Belgian and EU regulations on animal research
+
+### Disclaimer
+
+While every effort has been made to ensure data quality, the following 
+limitations apply:
+
+1. **Geolocator Technology:**
+   - Positional accuracy: ±150-200 km
+   - Equinox interference (data gaps)
+   - Cloud cover effects
+   - Behavioral shading bias
+
+2. **Sample Size:**
+   - Small sample (n=3 individuals)
+   - Single breeding colony
+   - Single wintering period (2013-2014)
+   - Generalization to population level may be limited
+
+3. **Data Processing:**
+   - Statistical corrections applied (documented in scripts/)
+   - Quality control performed but outliers may remain
+   - Smoothing algorithms affect temporal resolution
+
+**The data providers (IRSNB-BeBirds) and data contributors make no warranties, 
+expressed or implied, regarding data accuracy, completeness, or fitness for 
+particular purposes.**
+
+### Commercial Use
+
+For commercial applications:
+1. Contact IRSNB-BeBirds before use
+2. Negotiate appropriate licensing fees
+3. Obtain written authorization
+4. Acknowledge data source as specified above
+
+Commercial use without prior authorization constitutes a violation of these terms.
+
+### Violation of Terms
+
+Violation of these data usage terms may result in:
+- Revocation of data access privileges
+- Exclusion from future BeBirds data sharing
+- Formal complaint to your institution or employer
+- Legal action if commercial misuse occurs
+
+### Data Sharing Platforms
+
+This dataset may be shared via:
+- **GitHub** (current repository)
+- **EURING database** (European bird ringing data)
+- **GBIF** (Global Biodiversity Information Facility)
+- **Movebank** (animal tracking data)
+- **Zenodo** (research data repository with DOI)
+
+All platforms must maintain these usage terms and proper attribution.
+
+---
+
+**Last Updated:** December 22, 2024
+**Version:** 1.0
+**Based on:** IRSNB-BeBirds Access Procedures (November 2008)
