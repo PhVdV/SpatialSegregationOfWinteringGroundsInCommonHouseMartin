@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Figures - Common House Martin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #2171B5;
+            text-align: center;
+        }
+        .figure {
+            background: white;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .figure h2 {
+            color: #2171B5;
+            margin-top: 0;
+        }
+        .figure img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            margin: 15px 0;
+        }
+        .description {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #2171B5;
+            margin-top: 15px;
+        }
+        .back-link {
+            display: inline-block;
+            background: #2171B5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .back-link:hover {
+            background: #1a5a8a;
+        }
+        .note {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Back to Map</a>
+    
+    <h1>Scientific Figures - Spatial Analyses</h1>
+    <p style="text-align:center;color:#666;">
+        Spatial distribution of three Common House Martins (November 2013 - February 2014)
+    </p>
+
+    <div class="figure">
+        <h2>Figure 1: Comparison of Wintering Areas - 3 Individuals</h2>
+        <img src="images/analyse_comparative_zones.png" alt="Comparison of wintering areas">
+        <div class="description">
+            <h3>Key Results</h3>
+            <ul>
+                <li><strong>Distance A108 ↔ A110:</strong> 1,214 km</li>
+                <li><strong>Distance A108 ↔ A99:</strong> 750 km</li>
+                <li><strong>Distance A110 ↔ A99:</strong> 469 km</li>
+                <li><strong>Spatial overlap:</strong> 0%</li>
+                <li><strong>Statistical tests:</strong> Latitude and Longitude p < 0.001 ***</li>
+                <li><strong>Conclusion:</strong> Significant spatial segregation</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="figure">
+        <h2>Figure 2: Monthly Movements (November 2013 - February 2014)</h2>
+        <img src="images/mouvements_mensuels.png" alt="Monthly movements">
+        <div class="description">
+            <h3>Movement Strategies</h3>
+            <ul>
+                <li><strong>A108:</strong> Nomadic south → north movement (amplitude ~122 km)</li>
+                <li><strong>A110:</strong> Progressive north → south movement (amplitude ~178 km)</li>
+                <li><strong>A99:</strong> Relatively stationary (centered on 0.7°E)</li>
+                <li><strong>Conclusion:</strong> Each individual adopts a distinct spatial strategy</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="figure">
+        <h2>Figure 3: Monthly Spatial Distribution</h2>
+        <img src="images/repartition_mensuelle.png" alt="Monthly distribution">
+        <div class="description">
+            <h3>Temporal Evolution</h3>
+            <ul>
+                <li><strong>November 2013:</strong> Establishment phase after migration</li>
+                <li><strong>December 2013:</strong> Consolidation of wintering areas</li>
+                <li><strong>January 2014:</strong> Stable wintering phase</li>
+                <li><strong>February 2014:</strong> End of period, maintenance of segregation</li>
+                <li><strong>Conclusion:</strong> Constant spatial segregation • Fidelity to specific regions • Common zone: Sudanian Savanna (7-11°N)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="note">
+        <h3>ℹ️ Data Precision Note</h3>
+        <p>
+            <strong>Technology:</strong> Light-level geolocators<br>
+            <strong>Precision:</strong> ±150-200 km (latitude and longitude)<br>
+            <strong>Applied corrections:</strong> Spatial outlier filtering, velocity verification, 
+            median smoothing, equinox period exclusion<br>
+            <strong>Source:</strong> Boitsfort colony, Belgium (50.8°N, 4.4°E)<br>
+            <strong>Total:</strong> 710 locations (A108: n=239, A110: n=233, A99: n=238)
+        </p>
+    </div>
+
+    <a href="index.html" class="back-link">← Back to Map</a>
+</body>
+</html>
