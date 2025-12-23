@@ -14,7 +14,6 @@
 - [Key Findings](#key-findings)
 - [Features](#features)
 - [Live Demo](#live-demo)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Technologies](#technologies)
