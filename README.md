@@ -109,41 +109,6 @@ The three tracked individuals demonstrated **100% spatial segregation** across W
 
 ---
 
-## 🚀 Installation
-
-### Prerequisites
-- Web browser (modern version)
-- Local web server (optional, for development)
-
-### Quick Start
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/delichon-wintering-map.git
-cd delichon-wintering-map
-```
-
-2. **Open the map**
-```bash
-# Option 1: Direct file opening
-open index.html  # macOS
-start index.html # Windows
-xdg-open index.html # Linux
-
-# Option 2: Local server (recommended)
-python -m http.server 8000
-# Then open http://localhost:8000 in your browser
-```
-
-3. **View figures**
-```bash
-# Click "View Figures" button on the map interface
-# OR directly open:
-open figures.html
-```
-
----
-
 ## 📖 Usage
 
 ### Navigation
