@@ -527,13 +527,6 @@ When using the interactive map or data:
 - Small sample size: n=3 (limited by geolocator recovery rates)
 - Mobile optimization: Map best viewed on desktop
 
-### Future Improvements
-- [ ] Add multi-year data (site fidelity analysis)
-- [ ] Include environmental covariates (habitat, climate)
-- [ ] 3D trajectory visualization
-- [ ] Compare with other breeding colonies
-- [ ] Mobile-responsive design
-
 ---
 
 ## 📚 Additional Resources
@@ -543,10 +536,6 @@ When using the interactive map or data:
 - [Statistical Corrections](docs/STATISTICAL_CORRECTIONS.md)
 - [Kruskal-Wallis Test Explained](docs/KRUSKAL_WALLIS_GUIDE.md)
 
-### Data Files
-- [Download all data (ZIP)](https://github.com/your-username/delichon-wintering-map/archive/refs/heads/main.zip)
-- [View raw data](data/)
-- [Access figures](figures/)
 
 ### Scientific Background
 - [Common House Martin Species Account](https://www.hbw.com/species/common-house-martin-delichon-urbicum)
