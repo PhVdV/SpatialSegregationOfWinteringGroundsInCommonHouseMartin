@@ -135,7 +135,6 @@ The three tracked individuals demonstrated **100% spatial segregation** across W
 - 🟢 **Red (A108)**: Western individual (Burkina Faso)
 - 🔴 **Green (A99)**: Central individual (Mali/Burkina Faso)
 - 🔵 **Blue (A110)**: Eastern individual (Niger/Nigeria)
-- 🟡 **Yellow star**: Breeding colony (Boitsfort, Belgium)
 
 ---
 
