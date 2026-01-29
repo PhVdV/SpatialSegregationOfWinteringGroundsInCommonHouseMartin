@@ -53,8 +53,8 @@ The three tracked individuals demonstrated **100% spatial segregation** across W
 
 | Individual | Wintering Zone | Mean Coordinates | Distance from Colony |
 |------------|----------------|------------------|---------------------|
-| **A108** 🔴 | West (Senegal/Mali) | 7.2°N, -4.1°E | ~3,700 km |
-| **A99** 🟢 | Center (Mali/Burkina Faso) | 9.1°N, 0.7°E | ~3,500 km |
+| **A108** 🟢 | West (Burkina Faso) | 7.2°N, -4.1°E | ~3,700 km |
+| **A99**  🔴| Center (Mali/Burkina Faso) | 9.1°N, 0.7°E | ~3,500 km |
 | **A110** 🔵 | East (Niger/Nigeria) | 10.3°N, 1.8°E | ~3,400 km |
 
 ### Inter-Individual Distances
@@ -132,8 +132,8 @@ The three tracked individuals demonstrated **100% spatial segregation** across W
 
 ### Marker Colors
 
-- 🔴 **Red (A108)**: Western individual (Senegal/Mali)
-- 🟢 **Green (A99)**: Central individual (Mali/Burkina Faso)
+- 🟢 **Red (A108)**: Western individual (Burkina Faso)
+- 🔴 **Green (A99)**: Central individual (Mali/Burkina Faso)
 - 🔵 **Blue (A110)**: Eastern individual (Niger/Nigeria)
 - 🟡 **Yellow star**: Breeding colony (Boitsfort, Belgium)
 
